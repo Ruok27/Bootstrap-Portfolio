@@ -52,7 +52,8 @@ h3 {
 
 /* header */
 
-#masthead {
+.navbar {
+
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -63,21 +64,12 @@ h3 {
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-}
 
-nav {
+
+
+
+.navbar-nav {
+  padding-left: 300px; 
   float: right;
   margin-top: 25px;
 }
@@ -90,6 +82,21 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+}
+
+
+.navbar-brand{
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
 nav a:first-child {
@@ -168,7 +175,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.img-fluid {
   float: left;
   width: 200px;
   height: auto;
